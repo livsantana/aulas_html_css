@@ -14,4 +14,4 @@ git push
 git clone sitedoprojeto.git
 
 # Sempre que for atualizar o projeto na máquina com atualizações que foram feitas de outro computador
-git pull
+git pul                                                                                                                         

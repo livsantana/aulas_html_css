@@ -25,7 +25,7 @@
         <div>
             <p> Escolha o time que você torce: </p>
             <div>
-                <input type="radio" id="nenhum"  name="times">
+                <input type="radio" id="nenhum" name="times">
                 <label for="nenhum"> Nenhum time</label>
             </div>
             <div>
@@ -37,11 +37,24 @@
                 <label for="nenhum"> Flamengo</label>
             </div>
             <div>
-                <input type="radio" id="corinthians" name="times">
+                <input type="radio" id="corinthians" name="times">    
                 <label for="nenhum"> Corinthians</label>
             </div>
-
         </div>
+        <!-- select -->
+        <!-- sempre que usamos o select temos q usar options, que devem 
+            conter value (para java)-->
+        <!--  disabled desativa a option -->
+        <div>
+            <label for="turma">Escolha sua turma:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01ta">01TA</option>
+                <option value="01tb">01TB</option>
+                <option value="01tc">01TC</option>
+            </select>
+        </div>
+    
         <button>enviar</button>
     </form>
 </body>
