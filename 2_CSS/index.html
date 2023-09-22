@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS- Inline, Internal, External </title>
+    <!--  rel= relation -->
+    <link rel="stylesheet" href="style.css">
+    <!-- O style muda todas as tags h2 -->
+    <style> 
+        h2{
+            color: darkcyan;
+        }
+    h1{
+        background: lightcyan;
+    }
+
+    </style>
+<body>
+    <h1>CSS- Inline, Internal, External</h1>
+     <!--  O Inline CSS é trabalhado usando um atributo. Ex: style -->
+     <!--  Não é comumente usado, pois deixa o cod. html sujo e tbm não é 
+    prático, pois a estilização só funciona em um parágrafo, tendo q 
+add o atributo um por um em cada parte do cod -->
+
+            <!-- INLINE CSS -->
+    <p style="color: purple; background: lightblue;">Fui estilizado com Inline CSS</p>
+    <p style="color: purple">Outro parágrafo</p>
+    <p style="color: purple">Mais um parágrafo</p>
+
+    <!--  Como uma alternativa para que tivesse mais praticidade,
+         foi criado o Internal CSS -->
+         <!-- O INTERNAL CSS funciona a partir de uma tag style no head, informando nela qual 
+        parte do código será estilizada -->
+        <!--  Porém, o internal ainda suja o código, então há a possibilidade do External -->
+
+         <!--  INTERNAL CSS -->
+         <h2>Sou o h2</h2>
+         <h2>Sou outro h2</h2>
+
+        <!--  O EXTERNAL CSS trabalha a partir de um arquivo externo -->
+        <!--  Para usá-lo, é necessário conectar os dois arquivos -->
+         <!--  EXTERNAL CSS -->
+         <h3> Sou um h3</h3>
+         <h3> Sou mais um h3</h3>
+</body>
+</html>
