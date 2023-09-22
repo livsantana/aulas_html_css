@@ -1,0 +1,31 @@
+/*  Sempre que for criar uma class:
+  . + nome da classe
+A classe deve estar nos dois arquivos */
+
+#titulo-id{
+    color:darkmagenta;
+}
+
+.subtitulo{
+    background: lightskyblue;
+}
+
+.textoazul{
+    color:darkblue
+}
+
+h2{
+    color: purple;
+}
+
+p{
+    color: darkslateblue;
+}
+
+h2{
+    color: indigo;
+}
+
+/* O CSS funciona como uma cascata, sendo lido de cima para baixo */
+/*  A class prevalece o elemento estilizado pelo seu nome */
+/*  Regra da especificação */
