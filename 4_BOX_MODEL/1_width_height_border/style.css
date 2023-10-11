@@ -1,0 +1,9 @@
+/* Na borda sempre deve ter dois valores::
+espessura(width), tipo(style) e cor(color) */
+.caixa_width{
+    border-width: 2px;
+    border-style: solid; /*solid é a borda mais padrão*/
+    border-color: #f88;
+    /* shorthand ==> Vários valores na msma propriedade */
+    border: 2px solid #f88 ;
+}
