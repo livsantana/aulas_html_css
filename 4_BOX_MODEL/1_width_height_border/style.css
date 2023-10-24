@@ -6,4 +6,16 @@ espessura(width), tipo(style) e cor(color) */
     border-color: #f88;
     /* shorthand ==> Vários valores na msma propriedade */
     border: 2px solid #f88 ;
+
+    width: 300px;
+}
+
+.img_width{
+    width: 400px;
+}
+
+.caixa_height{
+    border:1px dashed darkblue;
+    height: 100px;
+    width: 100px;
 }
