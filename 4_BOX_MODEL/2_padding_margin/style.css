@@ -1,0 +1,28 @@
+div {
+    border: 4px dotted #00f3;
+    width: fit-content; /*Ajusta o conteúdo para caber no margin*/
+    font-size: 24px;
+
+    /* padding-top: em cima
+    padding-top: 10px; */
+    /* padding-right: direita */
+    /* padding-right: 20px; */
+    /* padding-bottom: embaixo */
+    /* padding-top: 30px; */
+    /* padding-left: esquerda */
+    /* padding-top: 40px; */
+
+    /* shorthand: diversos valores  */
+    /* 1 valor: msm valor para todos os lados */
+    padding: 20px;
+    /* 2 valores: primeiro:top e bottom | segundo: right e left */
+    padding: 30px 50px;
+    /* 3 valores: primeiro:top| segundo: right e left| terceiro: bottom */
+    padding: 20px 50px 5px;
+    /* 4 valores: primeiro:top|segundo: right |terceiro:bottom| terceiro:left */
+    padding: 30px 50px 70px 90px;
+
+    /* Propriedades extras */
+    padding-inline: 40px; /*padding na horizontal(em linha)*/
+    padding-block:20px ; /*padding na vertical*/
+}
